@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(216, 216, 216);
+}
+
+.box{
+    padding: 20px;
+    margin: auto;
+    width: 40%;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px gray ;
+    position: relative;
+    background-color: white;
+    border-left: 4px solid red;
+}
+.box1{
+    border-left: 4px solid green;
+}
+
+.head{
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+}
+
+.circle-1{
+    background-color: green;
+}
+
+.head p{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+#special-p{
+    color: green;
+}
+.box > p{
+    margin: 4px 0;
+    font-size: 18px;
+}
+#header{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.tags .tag{
+    background-color: rgb(197, 197, 197);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+}

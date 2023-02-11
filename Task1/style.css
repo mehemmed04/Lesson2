@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 75px 200px;
+    background-color: rgb(81, 192, 240);
+}
+
+.navbar {
+    background-color: rgb(57, 61, 65);
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar li {
+    text-align: center;
+    margin: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(172, 172, 172);
+}
+
+.navbar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-item>#first-p {
+    color: white;
+}
+
+
+.navbar-item p {
+    font-size: 18px;
+}
+
+.navbar img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.section-1 {
+    background-color: white;
+    text-align: center;
+}
+
+.section-1>.item,
+.button {
+    margin: 15px 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.section-1>.item :nth-child(1) {
+    color: black;
+}
+
+
+.section-1>.item :nth-child(2) {
+    color: white;
+    background-color: rgb(154, 154, 154);
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 16px;
+}
+
+.section-1>.selected-i :nth-child(1) {
+    color: blue;
+}
+
+.section-1>.selected-i {
+    position: relative;
+}
+
+.bottom-line {
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: -18px;
+    background-color: blue;
+}
+
+.section-1>.button {
+    border-radius: 20px;
+    width: 200px;
+    padding: 0px 0px;
+    background-color: rgb(68, 170, 247);
+    font-size: 16px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-1>.button :nth-child(2) {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-1>.button :nth-child(1) {
+    font-size: 30px;
+    color: rgba(13, 0, 255, 0.99);
+    margin-left: -140px;
+}
+
+main {
+    padding-top: 50px;
+    background-color: rgb(222, 222, 222);
+}
+
+table {
+    margin: auto;
+    width: 90%;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+tr{
+    height: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+td{
+    position: relative;
+    text-align: center;
+}
+
+table .button{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+
+table .button1{
+    background-color: red;
+}
+
+table .button2{
+    background-color: rgb(22, 162, 57);
+}
+
+table img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin: 2px 0 2px 10px;
+}
+table p {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+}
+
